@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: server1.nicholaspease.com
+    name: Server1 Homepage
+    url: 'https://server1.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
