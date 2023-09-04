@@ -39,6 +39,6 @@ monitors:
     expectStatus: 200
 
   - id: server1.nicholaspease.com
-    name: Server1
+    name: Server1 Status
     method: GET
     expectStatus: 200
