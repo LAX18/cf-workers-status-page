@@ -29,10 +29,3 @@ monitors:
     url: 'https://server1.nicholaspease.com/'
     method: GET
     expectStatus: 200
-
-  - id: Plex
-    name: Plex
-    url: 'https://plex.nicholaspease.com'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
