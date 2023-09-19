@@ -1,7 +1,7 @@
 settings:
   title: 'Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
-  logo: LAX18.png # image in ./public/ folder
+  logo: LAX18.jpeg # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
@@ -32,18 +32,18 @@ monitors:
 
   - id: plex.nicholaspease.com
     name: Plex
-    url: 'https://plex.nicholaspease.com'
+    url: 'https://plex.nicholaspease.com/'
     method: GET
     expectStatus: 200
 
   - id: radarr.nicholaspease.com
     name: Radarr
-    url: 'https://radarr.nicholaspease.com'
+    url: 'https://radarr.nicholaspease.com/'
     method: GET
     expectStatus: 200
 
   - id: sonarr.nicholaspease.com
     name: Sonarr
-    url: 'https://sonarr.nicholaspease.com'
+    url: 'https://sonarr.nicholaspease.com/'
     method: GET
     expectStatus: 200
