@@ -33,5 +33,17 @@ monitors:
   - id: plex.nicholaspease.com
     name: Plex
     url: 'https://plex.nicholaspease.com'
-    method: GEt
+    method: GET
+    expectStatus: 200
+
+  - id: radarr.nicholaspease.com
+    name: Radarr
+    url: 'https://radarr.nicholaspease.com'
+    method: GET
+    expectStatus: 200
+
+  - id: sonarr.nicholaspease.com
+    name: Sonarr
+    url: 'https://sonarr.nicholaspease.com'
+    method: GET
     expectStatus: 200
