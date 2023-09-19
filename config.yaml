@@ -34,37 +34,37 @@ monitors:
     name: Plex
     url: 'https://plex.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: radarr.nicholaspease.com
     name: Radarr
     url: 'https://radarr.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: sonarr.nicholaspease.com
     name: Sonarr
     url: 'https://sonarr.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: bittorrent.nicholaspease.com
     name: qBittorrent
     url: 'https://bittorrent.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: prowlarr.nicholaspease.com
     name: Prowlarr
     url: 'https://prowlarr.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: bazarr.nicholaspease.com
     name: Bazarr
     url: 'https://bazarr.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
 
   - id: petio.nicholaspease.com
     name: Petio
