@@ -47,3 +47,33 @@ monitors:
     url: 'https://sonarr.nicholaspease.com/'
     method: GET
     expectStatus: 200
+
+  - id: bittorrent.nicholaspease.com
+    name: qBittorrent
+    url: 'https://bittorrent.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: prowlarr.nicholaspease.com
+    name: Prowlarr
+    url: 'https://prowlarr.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: bazarr.nicholaspease.com
+    name: Bazarr
+    url: 'https://bazarr.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: petio.nicholaspease.com
+    name: Petio
+    url: 'https://petio.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: tautulli.nicholaspease.com
+    name: Tautulli
+    url: 'https://tautulli.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
