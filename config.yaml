@@ -77,3 +77,15 @@ monitors:
     url: 'https://tautulli.nicholaspease.com/'
     method: GET
     expectStatus: 200
+
+  - id: gitea.nicholaspease.com
+    name: Gitea
+    url: 'https://gitea.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
+  
+  - id: coder.nicholaspease.com
+    name: Coder
+    url: 'https://coder.nicholaspease.com/'
+    method: GET
+    expectStatus: 200
