@@ -34,7 +34,7 @@ monitors:
     name: Plex
     url: 'https://plex.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 401
 
   - id: radarr.nicholaspease.com
     name: Radarr
@@ -58,7 +58,7 @@ monitors:
     name: Prowlarr
     url: 'https://prowlarr.nicholaspease.com/'
     method: GET
-    expectStatus: 403
+    expectStatus: 401
 
   - id: bazarr.nicholaspease.com
     name: Bazarr
@@ -76,7 +76,7 @@ monitors:
     name: Tautulli
     url: 'https://tautulli.nicholaspease.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 303
 
   - id: gitea.nicholaspease.com
     name: Gitea
